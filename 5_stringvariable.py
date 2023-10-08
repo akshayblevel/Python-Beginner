@@ -13,5 +13,6 @@ def printvalue():
     print('patel ' + name[0:10])  # patel akshay
     print(len(name))  # 6
 
+
 if __name__ == '__main__':
     printvalue()
