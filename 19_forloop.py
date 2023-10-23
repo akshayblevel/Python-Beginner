@@ -25,4 +25,3 @@ for i in range(11, 20, 2):
 
 for i in range(20, 11, -1):
     print(i)
-
