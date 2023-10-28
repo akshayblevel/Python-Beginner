@@ -45,6 +45,3 @@ person('Akshay', age=42, city='Hyderabad', mob=9898989898)
 # age 42
 # city Hyderabad
 # mob 9898989898
-
-
-
