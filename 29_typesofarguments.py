@@ -24,7 +24,7 @@ employee('Akshay', 28)
 
 
 # Variable Length
-def add(x, *y):     # formal arguments
+def add(x, *y):     # * means multiple arguments
     z = x
     for i in y:
         z = z + i
@@ -32,5 +32,19 @@ def add(x, *y):     # formal arguments
 
 
 add(14, 10, 19, 81)
+
+
+def person(name, **data):   # ** means multiple arguments with arguments
+    print(name)
+    for i, j in data.items():
+        print(i, j)
+
+
+person('Akshay', age=42, city='Hyderabad', mob=9898989898)
+# Akshay
+# age 42
+# city Hyderabad
+# mob 9898989898
+
 
 
