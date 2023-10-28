@@ -1,12 +1,8 @@
-def printvalue():
-    x = 14
-    y = 10
 
-    x, y = y, x
+x = 14
+y = 10
 
-    print('x = ' + str(x))
-    print('y = ' + str(y))
+x, y = y, x
 
-
-if __name__ == '__main__':
-    printvalue()
+print('x = ' + str(x))
+print('y = ' + str(y))

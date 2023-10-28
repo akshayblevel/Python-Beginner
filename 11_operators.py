@@ -1,51 +1,47 @@
-def printvalue():
-    # Arithmatic | Assignment | Relational | Logical | Unary
-    # Arithmatic Operator
 
-    x = 14
-    y = 10
+# Arithmatic | Assignment | Relational | Logical | Unary
+# Arithmatic Operator
 
-    print(x + y)  # 24
-    print(x - y)  # 4
-    print(x * y)  # 140
-    print(x / y)  # 1.4
-    print(x % y)  # 4
+x = 14
+y = 10
 
-    # Assignment Operator
+print(x + y)  # 24
+print(x - y)  # 4
+print(x * y)  # 140
+print(x / y)  # 1.4
+print(x % y)  # 4
 
-    x = x + 2
-    print(x)  # 16
+# Assignment Operator
 
-    x += 1
-    print(x)  # 17
+x = x + 2
+print(x)  # 16
 
-    num, num1 = 14, 10
-    print(num)  # 14
-    print(num1)  # 10
+x += 1
+print(x)  # 17
 
-    # Unary Operator
+num, num1 = 14, 10
+print(num)  # 14
+print(num1)  # 10
 
-    num = -num
-    print(num)  # -14
+# Unary Operator
 
-    print(num < num1)  # True
-    print(num > num1)  # False
-    print(num == num1)  # False
-    print(num <= num1)  # True
-    print(num >= num1)  # False
-    print(num != num1)  # True
+num = -num
+print(num)  # -14
 
-    # Logical Operator
+print(num < num1)  # True
+print(num > num1)  # False
+print(num == num1)  # False
+print(num <= num1)  # True
+print(num >= num1)  # False
+print(num != num1)  # True
 
-    num = 14
-    num1 = 10
-    print(num > 13 and num1 < 11)  # True
-    print(num > 13 and num1 < 10)  # False
-    print(num > 13 or num < 10)  # True
+# Logical Operator
 
-    x = num > 13 and num1 < 11
-    print(not x)  # False
-    
+num = 14
+num1 = 10
+print(num > 13 and num1 < 11)  # True
+print(num > 13 and num1 < 10)  # False
+print(num > 13 or num < 10)  # True
 
-if __name__ == '__main__':
-    printvalue()
+x = num > 13 and num1 < 11
+print(not x)  # False
