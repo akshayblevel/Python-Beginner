@@ -17,5 +17,15 @@ class StarPattern:
 
 pattern = StarPattern()
 
+print(next(pattern))
+
+# *
+# **
+# ***
+# ****
+# *****
+
 for i in pattern:
     print(i)
+
+# It won't print again as values are read once
