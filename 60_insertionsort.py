@@ -9,6 +9,8 @@ sorted      Unsorted
 Iterate till value to the immediate left is lower than the value to sort
 If immediate left value is higher than change the position
 
+3   5       8   6   7   2
+
 Pick 8 in another iteration and follow above steps
 '''
 
