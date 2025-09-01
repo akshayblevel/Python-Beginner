@@ -11,6 +11,7 @@ print(nums[3:])  # [40, 50, 60]
 print(nums[:3])  # [10, 20, 30]
 print(nums[3:10])  # [40, 50, 60]
 print(len(nums))   # 6
+print(type(nums)) # <class 'list'>
 
 names = ['akshay', 'kumar', 'satish', 'chandra', 'patel']
 print(names)  # ['akshay', 'kumar', 'satish', 'chandra', 'patel']
@@ -48,3 +49,6 @@ print(sum(nums))  # 210
 
 nums.sort()
 print(nums)  # [10, 20, 30, 40, 50, 60]
+
+nums.append([70,80])
+print(nums) # [10, 20, 30, 40, 50, 60, [70, 80]]
