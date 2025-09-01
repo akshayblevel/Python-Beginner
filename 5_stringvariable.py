@@ -13,3 +13,5 @@ print(name[3:10])  # hay
 print('patel ' + name[0:10])  # patel akshay
 print(len(name))  # 6
 print(type(name))
+print(name.upper())
+print(name.lower())
