@@ -17,7 +17,8 @@ print("End")
 for x in range(1, 30):
     if x % 3 == 0 and x % 5 == 0:
         continue
-
+        print('after continue')
+    
     print(x)
 
 print("End")
@@ -27,6 +28,7 @@ print("End")
 for x in range(1, 10):
     if x % 2 == 0:
         pass
+        print('after pass')
     else:
         print(x)
 
