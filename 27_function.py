@@ -7,6 +7,9 @@ def addition(x, y):
 result = addition(10, 12)
 print(result)  # 22
 
+result = addition('akki', 'patel')
+print(result) # akkipatel
+
 
 def add_sub(x, y):
     a = x + y
